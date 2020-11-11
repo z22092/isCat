@@ -4,14 +4,37 @@
   "description": "is a cat or not?!",
   "main": "index.js",
   "scripts": {
+    "dev": "DEBUG=* nodemon node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.1.0",
     "@tensorflow/tfjs": "^2.7.0",
     "@tensorflow/tfjs-node": "^2.7.0",
-    "debug": "^4.2.0"
+    "axios": "^0.21.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "jimp": "^0.16.1",
+    "jpeg-js": "^0.4.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nsfwjs": "^2.3.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-semistandard": "^15.0.1",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.2",
+    "nodemon": "^2.0.6"
   }
 }
